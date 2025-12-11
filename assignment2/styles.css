@@ -13,4 +13,39 @@ body {
     padding: 20px;
 }
 
-/* Add in your own customisations */
+.header {
+  padding: 10px 0;
+  background-color: #93d0f4;
+  margin: 0px 0 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+}
+
+.about {
+  padding: 10px 0;
+  margin: 0px 0 10px 0;
+}
+
+.stock-info {
+  padding: 10px 0;
+  margin: 0px 0 10px 0;
+}
+
+.relevant-links ul {
+  color: #0079c1;
+  margin: 0px 0 10px 0;
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: #93d0f4;
+  margin: 0px 0 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+}
