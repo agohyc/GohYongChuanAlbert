@@ -1,0 +1,82 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header {
+  padding: 10px 0;
+  background-color: #93d0f4;
+  margin: 0px 0 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+}
+
+.about {
+  padding: 10px 0;
+  margin: 0px 0 10px 0;
+}
+
+.stock-info {
+  padding: 10px 0;
+  margin: 10px 0 10px 0;
+}
+
+.stock-info h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.stock-table {
+    width: 93vw;
+    border-collapse: collapse; /* Makes borders look clean */
+}
+
+.stock-table th,
+.stock-table td {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.stock-table th {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.stock-table tr:nth-child(even) td {
+    background-color: #f0f0f0;
+}
+
+.stock-table td:first-child {
+    width: 30%; /* Optional: label column width */
+}
+
+
+.relevant-links ul {
+  color: #0079c1;
+  margin: 0px 0 10px 0;
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: #93d0f4;
+  margin: 0px 0 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+}
